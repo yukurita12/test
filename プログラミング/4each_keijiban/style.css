@@ -1,0 +1,141 @@
+.head {
+    background-color: black;
+    padding-left: 10px;
+    font-size: 20px;
+    line-height: 50px;
+    width: 100%;
+    height: 50px;
+}
+
+header ul li {
+    float: left;
+    list-style: none;
+    color: white;
+    padding-right: 100px;
+    padding-left: 10px;
+
+}
+
+main {
+    clear: left;
+    height: 2000px;
+    padding-top: 10px;
+}
+
+.left {
+    float: left;
+    width: 70%;
+}
+
+h2 {
+    border-bottom: solid black 2px;
+    border-left: solid black 6px;
+    width: 100%;
+
+}
+
+form {
+    background-color: ghostwhite;
+    height: 500px;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-family: 'YuGothic', 'Yu Gothic', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'メイリオ', 'Meiryo', 'MSP ゴシック', sans-serif;
+    border: lightgray solid 2px;
+}
+
+
+.shosai {
+    width: 1000px;
+    font-size: 20px;
+}
+
+.title {
+    border-left: solid 5px red;
+    padding-left: 5px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.right {
+    width: 25%;
+    float: right;
+}
+
+.right li {
+    list-style: none;
+}
+
+h4 {
+    border-bottom: dotted 5px black
+}
+
+footer {
+    clear: both;
+    height: 30px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    margin: 0 auto;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+.text {
+    width: 450px;
+}
+
+textarea {
+    width: 600px;
+    height: 200px;
+}
+
+.submit {
+
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: gray;
+    /*ボタン色*/
+    color: white;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+
+
+}
+
+.kiji {
+    background-color: ghostwhite;
+    height: 170px;
+    width: 99%;
+    border: solid lightgray 1px;
+    margin-top: 30px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+.kiji h3 {
+    border-bottom: gray solid 2px;
+    width: 95%;
+    padding-left: 10px;
+
+}
+
+.handlename {
+    font-size: 13px;
+}
+
+
+label {
+    padding: 10px;
+}
+
+.right li {
+    clear: right;
+}
+
+.right ul {
+    padding-left: 0px;
+}
