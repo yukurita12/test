@@ -3,7 +3,6 @@ package jp.co.internous.action;
 public class Person {
 
 	private String name;
-	private String birth;
 	
 	public String getName() {
 		return name;
