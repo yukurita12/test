@@ -1,6 +1,6 @@
 package jp.co.internous.action;
 
-public class Mp3Player {
+public class SmartPhone extends Phone implements Mp3Player, NewFunction {
 	public void play() {
 		System.out.println("再生");
 	}
