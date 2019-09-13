@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 動的WEBプロジェクト作成時自動的に作られる設定ファイル
+　　　サイトへアクセスする際最初に表示する画面ファイル(JSP)や
+　　　プロジェクトでStruts2を使用することを設定する。
+　　　Strutsフレームワーク以外にも利用される。 -->
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <!-- 1.ここまで決まり文句 -->
+  
+
+  <display-name>WebProj</display-name><!-- 2.プロジェクト名を記述 -->
+  
+  <!-- 3.実行後一番最初に表示されるJSPファイルを設定、
+  初期画面にしたいJSPファイル名を記述 -->
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <!-- 3.ここまで -->
+  
+  
+  <!-- 4.プロジェクト全体でstruts2を使うことを宣言 -->
+  <filter>
+  <filter-name>struts2</filter-name>
+  <filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>
+  </filter>
+  
+  <filter-mapping>
+  <filter-name>struts2</filter-name>
+  <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  <!-- 4.ここまで -->
+  
+</web-app>

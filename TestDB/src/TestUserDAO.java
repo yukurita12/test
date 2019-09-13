@@ -31,7 +31,7 @@ public class TestUserDAO {
 		}
 	}
 
-	public void selectA11() {
+	public void selectAll() {
 		DBConnector db = new DBConnector();
 		Connection con = db.getConnection();
 
